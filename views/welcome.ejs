@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f5f6f7;
+    }
+
+    .container {
+      width: 400px;
+      padding: 40px;
+      background: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .welcome-text {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .welcome-text span {
+      color: rgb(17, 219, 17);
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="welcome-text"><span><%= username.name %></span>님 환영합니다.</div>
+    </div>
+  </body>
+</html>
